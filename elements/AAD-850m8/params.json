@@ -1,0 +1,177 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 64,
+        "width": 240
+    },
+    "display": "Instant Checkout Button",
+    "events": {
+        "AAZ": {
+            "caption": "payment has been approved",
+            "doc": "documentation on https://instantcheckout.io/",
+            "name": "approved"
+        }
+    },
+    "fields": {
+        "AAG": {
+            "caption": "PopUp Color",
+            "default_val": "rgba(14, 37, 64, 1)",
+            "editor": "Color",
+            "in_style": false,
+            "name": "popup_color",
+            "optional": true,
+            "rank": 3
+        },
+        "AAH": {
+            "caption": "Button Text",
+            "default_val": "Instant Checkout",
+            "editor": "StaticText",
+            "name": "button_text",
+            "rank": 2
+        },
+        "AAI": {
+            "caption": "Font Family",
+            "default_val": "Arial",
+            "editor": "Dropdown",
+            "name": "font_family",
+            "optional": true,
+            "options": "Arial,Arial Black,Impact,Verdana,Times New Roman,Courier New,Comic Sans MS,Candara, Barlow",
+            "rank": 4
+        },
+        "AAJ": {
+            "caption": "Font Color",
+            "default_val": "rgba(0, 0, 0, 1)",
+            "editor": "Color",
+            "name": "font_color",
+            "optional": true,
+            "rank": 5
+        },
+        "AAK": {
+            "caption": "Font Size",
+            "default_val": "14px",
+            "editor": "Dropdown",
+            "name": "font_size",
+            "optional": true,
+            "options": "6px,7px,8px,9px,10px,11px,12px,14px,16px,18px,20px,24px,28px,36px",
+            "rank": 6
+        },
+        "AAL": {
+            "caption": "Font Style",
+            "default_val": "normal",
+            "editor": "Dropdown",
+            "name": "font_style",
+            "optional": true,
+            "options": "normal,bold,italic",
+            "rank": 7
+        },
+        "AAM": {
+            "caption": "Letter Spacing",
+            "default_val": "0px",
+            "editor": "Dropdown",
+            "name": "letter_spacing",
+            "optional": true,
+            "options": "-2px,-1px,0px,1px,2px,3px,4px,5px,6px,7px,8px,9px,10px",
+            "rank": 8
+        },
+        "AAN": {
+            "caption": "Background Style",
+            "default_val": "solid",
+            "editor": "Dropdown",
+            "name": "background_style",
+            "optional": true,
+            "options": "solid,linear gradient",
+            "rank": 9
+        },
+        "AAO": {
+            "caption": "Background Color 1",
+            "default_val": "rgba(255, 255, 255, 1)",
+            "editor": "Color",
+            "name": "background_color_1",
+            "optional": true,
+            "rank": 10
+        },
+        "AAP": {
+            "caption": "Background Color 2",
+            "default_val": "rgba(255, 255, 255, 1)",
+            "editor": "Color",
+            "name": "background_color_2",
+            "optional": true,
+            "rank": 11
+        },
+        "AAQ": {
+            "caption": "Gradient Direction",
+            "default_val": "0deg",
+            "editor": "Dropdown",
+            "name": "gradient_direction",
+            "optional": true,
+            "options": "0deg,45deg,90deg,135deg,180deg,225deg,270deg,315deg",
+            "rank": 12
+        },
+        "AAR": {
+            "caption": "Border Style",
+            "default_val": "solid",
+            "editor": "Dropdown",
+            "name": "border_style",
+            "optional": true,
+            "options": "none,solid,dotted",
+            "rank": 13
+        },
+        "AAS": {
+            "caption": "Border Width",
+            "default_val": "1px",
+            "editor": "Dropdown",
+            "name": "border_width",
+            "optional": true,
+            "options": "1px,2px,3px,4px,5px,10px,15px,20px",
+            "rank": 14
+        },
+        "AAT": {
+            "caption": "Border Radius",
+            "default_val": "0px",
+            "editor": "Dropdown",
+            "name": "border_radius",
+            "optional": true,
+            "options": "0px,2px,4px,6px,8px,10px,15px,20px,30px",
+            "rank": 15
+        },
+        "AAU": {
+            "caption": "Border Color",
+            "default_val": "rgba(0, 0, 0, 1)",
+            "editor": "Color",
+            "name": "border_color",
+            "optional": true,
+            "rank": 16
+        },
+        "AAV": {
+            "caption": "text-decoration",
+            "default_val": "none",
+            "editor": "Dropdown",
+            "name": "text-decoration",
+            "optional": true,
+            "options": "none, overline,underline",
+            "rank": 17
+        },
+        "AAW": {
+            "caption": "Product ID",
+            "doc": "Product ID or Subscription ID provide by the Instant Checkout team",
+            "editor": "StaticText",
+            "name": "ic_product",
+            "rank": 0
+        },
+        "AAX": {
+            "caption": "Product Quantity",
+            "default_val": 1,
+            "doc": "The quantity for the products in case of subscriptions the default is one",
+            "editor": "StaticNumber",
+            "name": "ic_product_quantity",
+            "rank": 1
+        }
+    },
+    "icon": "ion-card",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    }
+}

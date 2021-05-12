@@ -1,0 +1,73 @@
+<script>
+
+    var button_style = {
+        
+     setText: function(btn, properties) {
+         btn.css("cursor", "pointer");
+         btn.text(properties.button_text);    
+     },
+
+     setFont: function(btn, properties) {
+         btn.css("font-size", properties.font_size);
+         btn.css("font-family", properties.font_family);
+         btn.css("letter-spacing", properties.letter_spacing);
+         btn.css("color", properties.font_color);   
+
+         if (properties.font_style === "bold") {
+             btn.css("font-weight", "bold");
+             btn.css("font-style", "normal");  
+
+         } else if (properties.font_style === "italic") {
+             btn.css("font-style", "italic");  
+             btn.css("font-weight", "normal");     
+
+         } else {
+             btn.css("font-weight", "normal");
+             btn.css("font-style", "normal");  
+         } 
+
+     },        
+        
+     setBorder: function(btn, properties) {
+         btn.css("border-style", properties.border_style);    
+         btn.css("border-width", properties.border_width);
+         btn.css("border-radius", properties.border_radius);
+         btn.css("border-color", properties.border_color);  
+     },
+        
+     setBackground: function(btn, properties) {
+
+         if (properties.background_style === "solid") {
+             btn.css("background", properties.background_color_1);        
+
+         } else if (properties.background_style === "linear gradient") {
+             btn.css("background",'linear-gradient('
+                     + properties.gradient_direction + ','
+                     + properties.background_color_1 + ','
+                     + properties.background_color_2 + ')');
+
+         }
+     },
+        
+     setSize: function(btn, properties) {       
+         btn.css("width", properties.bubble.width);
+         btn.css("height", properties.bubble.height);
+     },
+
+    RGBToHex: function(r,g,b) {
+      r = Math.abs(r).toString(16);
+      g = Math.abs(g).toString(16);
+      b = Math.abs(b).toString(16);
+
+      if (r.length == 1)
+        r = "0" + r;
+      if (g.length == 1)
+        g = "0" + g;
+      if (b.length == 1)
+        b = "0" + b;
+
+      return `${r}${g}${b}`;
+    }
+  }
+    
+</script>

@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "payment",
+        "1": "productivity",
+        "2": "technical",
+        "3": "small business",
+        "4": "ecommerce"
+    },
+    "demo_page": "https://demo.instantcheckout.io/",
+    "description": "Securely process virtual products and subscriptions payments via Instant Checkout.\n\n\n",
+    "image": "//s3.amazonaws.com/appforest_uf/f1620149693229x190701396689405980/logo.jpg",
+    "license": "open_source",
+    "link": "https://instantcheckout.io/",
+    "name": "Instant Checkout",
+    "plugin_instructions": "========SETUP=========\n\n1. Create an Instant Checkout Merchant account (https://signup.instantcheckout.io/)\n2. Set the following fields provided by the Instant Checkout team after signup:\n    a) AppKey (Your Identification key)\n    b) PopUpBaseUrl (IThe Url of our checkout)\n           1 - Live site (https://c.instantcheckout.io/)\n           2 - Test site (https://c-int.instantcheckout.io/)\n3. Add the 'Instant Checkout Button' element to your page\n4. Set the required fields for the product or subscription that you want to charge your customers\n5. Configure your button with your style (Change the button text, colors, and sizes)\n6. Configure your workflow after payment has been approved\n\n\nIf you need help with the setup contact us directly at https://instantcheckout.io/"
+}
